@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffbbcc; /* Rosa pastel */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 100px; /* Ajusta el tamaño de tu foto */
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+section {
+    background-color: #f9e6fa; /* Morado pastel */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+h1, h2 {
+    color: #7733aa; /* Morado más oscuro */
+    font-family: 'Cursive', cursive;
+}
+
+#intereses ul {
+    color: #ff7799; /* Rosa más oscuro */
+    font-family: 'Times New Roman', serif;
+}
+
+#acerca-de-mi p {
+    color: #9966cc; /* Morado más claro */
+    font-family: 'Verdana', sans-serif;
+}
+
+#trabajos ul {
+    color: #ffcc99; /* Beige */
+    font-family: 'Courier New', monospace;
+}
+/* Agrega este código a tu archivo style.css */
+#trabajos ul li {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombras blancas */
+    margin: 10px 0; /* Espacio entre cada trabajo */
+    padding: 10px; /* Espacio alrededor de cada trabajo */
+}
